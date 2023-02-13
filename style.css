@@ -1,0 +1,223 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,500&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+.home{
+   height: 100vh;
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(2, 16, 24, 0.603)), url(./images/bg.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   position: relative;
+   z-index: 2;
+}
+.navbar-brand img{
+   padding-right: 16px;
+}
+
+
+
+
+a.nav-link {
+   color: white;
+}
+
+.navbar{
+   padding: 48px 0;
+}
+a.nav-link{
+   margin-right: 39px;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.hero{
+   display: flex;
+}
+
+
+.text-label{
+   margin: 24px 0;
+   font-size: 32px;
+   color: rgb(179, 19, 27);
+   font-weight: 800;
+   line-height: 31px;
+}
+
+
+.text-hero-bold{
+   margin: 24px 0;
+   font-size: 32px;
+   color: white;
+   font-weight: 800;
+   line-height: 69px;
+}
+a{
+   text-decoration: none;
+}
+.cta a.btn{
+   padding: 10px;
+   width: 390px;
+   height: 60px;
+   color: white;
+   font-size: 20px;
+
+}
+
+.copy{
+   margin-left: -150px;
+}
+
+a.btn{
+   padding: 10px;
+   margin: 15px;
+   width: 220px;
+   height: 60px;
+   color: white;
+   font-size: 20px;
+
+
+
+}
+.checkBtn .btn{
+   padding: 10px;
+   margin: 15px;
+   width: 220px;
+   height: 60px;
+   color: white;
+   font-size: 20px;
+
+}
+
+input,.form-select{
+   width: 20px;
+   height: 55px;
+}
+
+label{
+   color: rgb(102, 41, 41);
+   font-size: 17px;
+   font-weight: 500;
+}
+.copy2{
+   background-color: white;
+   border-radius: 8px;
+   color: black;
+   font-size: 17px;
+   margin-bottom: 5px;
+   padding-right: 80px;
+   padding-bottom: 20px;
+   width: 800px;
+   height: 450px;
+
+
+
+
+
+
+}
+
+
+@media (max-width:450px){
+   .hero{
+      height: 100vh;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+   }
+   .logo{
+      width: 160px;
+      height: 100px;
+   }
+
+   .copy2{
+      margin-top: 2px;
+      width: 350px;
+      height: 450px;
+
+
+
+
+   }
+   .form-row{
+      flex-direction: column;
+   }
+
+   .text-label{
+   margin: 0;
+   font-size: 12px;
+   color: rgb(179, 19, 27);
+   font-weight: 800;
+   line-height: 31px;
+
+
+   }
+
+   .text-hero-bold{
+      margin-left: 55px;
+      font-size: 10px;
+      color: white;
+      font-weight: 800;
+      line-height: 39px;
+      text-align: center;
+   }
+
+   .cta a.btn{
+      padding: 10px;
+      width: 150px;
+      height: 35px;
+      color: white;
+      font-size: 8px;
+   
+   }
+
+   a.btn{
+      padding: 5px;
+      margin: 5px;
+      width: 70px;
+      height: 20px;
+      color: white;
+      font-size: 7px;
+   
+}
+input,.form-select{
+   width: 10px;
+   height: 15px;
+}
+
+label{
+   font-size: 7px;
+   font-weight: 500;
+}
+.copy2{
+   background-color: white;
+   border-radius: 8px;
+   color: black;
+   font-size: 7px;
+   margin-bottom: 0;
+   padding-right: 0;
+   padding-bottom: 0;
+   width: 320px;
+   height: 250px;
+}
+.checkBtn .btn{
+   padding: 2px;
+   margin: 2px;
+   width: 90px;
+   height: 20px;
+   color: white;
+   font-size: 10px;
+
+}
+
+
+
+
+
+}
