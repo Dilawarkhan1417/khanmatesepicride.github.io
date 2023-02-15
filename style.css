@@ -6,9 +6,11 @@
    box-sizing: border-box;
    font-family: 'Poppins', sans-serif;
 }
+
+/* --------------------Home-style-start----------- */
 .home{
    height: 100vh;
-   background: linear-gradient(rgba(0,0,0,0.5), rgba(2, 16, 24, 0.603)), url(./images/bg.jpg);
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(2, 16, 24, 0.603)), url(./images/car.jpg);
    background-position: center;
    background-size: cover;
    background-attachment: fixed;
@@ -18,9 +20,6 @@
 .navbar-brand img{
    padding-right: 16px;
 }
-
-
-
 
 a.nav-link {
    color: white;
@@ -42,12 +41,25 @@ a.nav-link{
 
 .text-label{
    margin: 24px 0;
-   font-size: 32px;
-   color: rgb(179, 19, 27);
+   font-size: 72px;
+   color: red; 
    font-weight: 800;
    line-height: 31px;
 }
 
+.btnl{
+   color: white;
+   width: 480px;
+   height: 60px;
+   background-color: red;
+   border: 2px solid white;
+   outline: none;
+   padding: 12px 0;
+   font-size: 22px;
+   border-radius: 12px;
+   margin-top: 30px;
+
+}
 
 .text-hero-bold{
    margin: 24px 0;
@@ -72,24 +84,65 @@ a{
    margin-left: -150px;
 }
 
-a.btn{
-   padding: 10px;
-   margin: 15px;
-   width: 220px;
-   height: 60px;
+.btng{
    color: white;
-   font-size: 20px;
+   width: 250px;
+   height: 60px;
+   background-color: red;
+   border: 2px solid white;
+   outline: none;
+   padding: 12px 0;
+   font-size: 22px;
+   border-radius: 12px;
+   margin-top: 30px;
+   margin-right: 35px;
 
+
+}
+
+.btnq{
+   color: white;
+   width: 260px;
+   height: 60px;
+   background-color: red;
+   border: 2px solid white;
+   outline: none;
+   padding: 12px 0;
+   font-size: 22px;
+   border-radius: 12px;
+   margin-top: 30px;
+   margin-left: 65px;
+
+
+}
+
+.btnh{
+   color: white;
+   width: 240px;
+   height: 60px;
+   background-color: red;
+   border: 2px solid white;
+   outline: none;
+   padding: 12px 0;
+   font-size: 22px;
+   border-radius: 12px;
+   margin-top: 30px;
+   margin-left: 39px;
 
 
 }
 .checkBtn .btn{
-   padding: 10px;
-   margin: 15px;
-   width: 220px;
-   height: 60px;
    color: white;
-   font-size: 20px;
+   width: 320px;
+   height: 60px;
+   background-color: red;
+   border: 2px solid white;
+   outline: none;
+   padding: 12px 0;
+   font-size: 22px;
+   border-radius: 12px;
+   margin-top: 30px;
+   margin-left: 2px;
 
 }
 
@@ -99,29 +152,71 @@ input,.form-select{
 }
 
 label{
-   color: rgb(102, 41, 41);
-   font-size: 17px;
+   color: white;
+   font-size: 22px;
    font-weight: 500;
 }
-.copy2{
-   background-color: white;
+.form1{
+   border: 2px solid white;
+   background-color: rgba(27, 26, 26, 0.589);
    border-radius: 8px;
-   color: black;
-   font-size: 17px;
+   color: white;
+   font-size: 22px;
    margin-bottom: 5px;
    padding-right: 80px;
-   padding-bottom: 20px;
+   margin-top: 20px;
+   padding-bottom: 10px;
    width: 800px;
-   height: 450px;
+   height: 350px;
+}
+/* 
+ .parts{
+   margin: 20px 35px;
+   color: white;
+   width: 400px;
+   height: 240px;
+   border-radius: 10px;
+   padding: 15px 25px;
+   cursor: pointer;
 
-
-
-
-
+ }
+h5{
+   color: red;
 
 }
+ .part1{   
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(2, 16, 24, 0.603)), url(./images/car1.jpg);
+   background-size: cover;
+   background-position: center;
+ }
 
 
+ .part2{   
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(2, 16, 24, 0.603)), url(./images/car2.jpg);
+   background-size: cover;
+   background-position: center;
+
+ }
+
+ .part3{   
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(2, 16, 24, 0.603)), url(./images/car3.jpg);
+   background-size: cover;
+   background-position: center;
+   box-shadow: rgba(0, 0, 0, 0.8);
+
+ }
+ .part4{   
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(2, 16, 24, 0.603)), url(./images/car.jpg);
+   background-size: cover;
+   background-position: center;
+
+ 
+ }
+
+
+ .col{
+   margin-top: -80px;
+ } */
 @media (max-width:450px){
    .hero{
       height: 100vh;
@@ -221,3 +316,209 @@ label{
 
 
 }
+
+/* --------------------Home-style-end----------- */
+
+
+
+
+/* ---------------fleets-Style-start-------------- */
+
+#fleets{
+   width: 100%;
+   height: 100vh;
+   background-color: white;
+}
+
+
+.fleetsHeadings{
+   margin-top: 80px;
+   align-items: center;
+   text-align: center;
+}
+
+.fleetsHeadings h3{
+   color: red;
+}
+
+
+.row1{
+   height: 600px;
+
+}
+.row1 .card{
+   margin: 20px 35px;
+   pad: 10px;
+   width: 520px;
+   height: 600px;
+   box-shadow: 2px 4px 8px ;
+}
+
+.card-img-top{
+   width: 200px;
+   height: 330px;
+   background-position: center;
+   background-size: cover;
+}
+
+.card-body .btn4{
+   color: white;
+   background-color: red;
+   border: 2px solid black;
+   font-size: 19px;
+   height: 45px;
+   width: 180px;
+   margin-left: 287px;
+   padding: 7px;
+}
+
+.fa-regular,
+.fa-solid,
+.card-title,
+.card-text{
+   color: red;
+   font-weight: 800;
+   margin: 2px;
+   padding: 5px;
+}
+
+.card-text, p{
+   font-size: 20px;
+   font-weight: 450;
+}
+
+/* ---------------fleets-Style-End-------------- */
+
+
+/* ---------------Steps-Style-Start-------------- */
+#Steps{
+   width: 100%;
+   height: 100vh;
+}
+.stepsHeading{
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(2, 16, 24, 0.603)), url(./images/car.jpg);
+   color: white;
+   background-attachment: fixed;
+   height: 400px;
+   width: 100%;
+   background-position: center;
+   padding-top: 110px;
+   font-size: 25px;
+   background-size: cover;
+   margin-top: 5px;
+   align-items: center;
+   text-align: center;
+}
+.stepstitle h3{
+   color: red;
+   padding-bottom: 30px;
+}
+.stepstitle p{
+   padding-top: 10px;
+   font-size: 30px;
+   color: red;
+}
+.stepCard{
+
+   margin-top: -80px;
+   background: #ebe9e9;
+   width: 400px;
+   height: 370px;
+   text-align: center;
+}
+.stepCard1{
+
+   margin-top: -80px;
+   background: red;
+   width: 400px;
+   height: 370px;
+   color: white;
+   text-align: center;
+}
+.stepCard1 h2{
+   background-color: white;
+   border-radius: 500px;
+   color: red;
+   width: 85px;
+   height: 85px;
+   margin-top: 30px;
+   margin-left: 155px;
+   padding: 25px;
+}
+.stepCard h2{
+   background-color: red;
+   border-radius: 500px;
+   color: white;
+   width: 85px;
+   height: 85px;
+   margin-top: 30px;
+   margin-left: 155px;
+   padding: 25px;
+}
+
+.stepCard h1{
+   padding: 30px;
+   font-size: 29px;
+}
+
+.stepCard1 h1{
+   padding: 30px;
+   font-size: 29px;
+}
+.stepCard1 p{
+   padding: 10px;
+   font-size: 18px;
+   font-weight: 300;
+}
+
+.stepCard p{
+   padding: 10px;
+   font-size: 18px;
+   font-weight: 300;
+}
+
+ 
+
+
+
+/* ---------------Steps-Style-End-------------- */
+
+
+
+
+
+#Quote{
+   width: 100%;
+   height: 100vh;
+
+}
+
+.rowq{
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(2, 16, 24, 0.603)), url(./images/bgquote.jpg);
+   color: white;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+}
+
+.quoteImg{
+   padding-left: 80px;
+   margin-top: -110px;
+   width: 800px;
+   height: 800px;
+}
+.content{
+   text-align: center;
+   padding-top: 140px;
+   margin: 20px;
+}
+
+.content h1{
+   color: red;
+   font-weight: 800;
+}
+
+
+
+/* ---------------Quote-Style-End-------------- */
