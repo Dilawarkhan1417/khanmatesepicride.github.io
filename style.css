@@ -348,17 +348,16 @@ label{
 }
 .row1 .card{
    margin: 20px 35px;
-   pad: 10px;
    width: 520px;
-   height: 600px;
+   height: 630px;
    box-shadow: 2px 4px 8px ;
 }
 
 .card-img-top{
-   width: 200px;
-   height: 330px;
-   background-position: center;
-   background-size: cover;
+   padding: 7px;
+   margin: 5px;
+   height: 320px;
+   width: 600px;
 }
 
 .card-body .btn4{
@@ -382,6 +381,9 @@ label{
    padding: 5px;
 }
 
+.card-title1{
+   color: black;
+}
 .card-text, p{
    font-size: 20px;
    font-weight: 450;
@@ -509,8 +511,10 @@ label{
    height: 800px;
 }
 .content{
-   text-align: center;
+
+   text-align: left;
    padding-top: 140px;
+   padding-left: 60px;
    margin: 20px;
 }
 
@@ -519,6 +523,382 @@ label{
    font-weight: 800;
 }
 
+.content i{
+   color: white;
+}
+
 
 
 /* ---------------Quote-Style-End-------------- */
+
+
+
+
+
+
+
+
+/* ---------------Gallery-Style-Start-------------- */
+
+
+#Gallery{
+   width: 100%;
+   height: 100vh;
+
+}
+
+.partg{
+   margin-left: 20px;
+   border: 10px solid white;
+   width: 450px;
+   height: 800px;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   box-shadow: 2px 4px 8px ;
+}
+
+.partg1{
+   border: 8px solid white;
+   margin-left: 20px;
+   box-shadow: 2px 4px 8px ;
+
+   width: 350px;
+   height: 400px;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+
+.contentg{
+   margin-top: 90px;
+}
+
+.contentg h3,
+h4{
+   color: red;
+   padding: 20px 0; 
+   font-weight: 600;
+}
+
+.contentg p{
+   font-size: 22px;
+   font-weight: 400;
+
+}
+
+.rowc{
+   margin-top: 40px;
+}
+
+.cta2{
+   
+   margin-left: 220px;
+}
+.cta2 h5{
+   margin-left: 10px;
+   color: black;
+}
+.cta h5{
+   margin-left: 10px;
+   color: black;
+}
+
+.cta2 span{
+   color: red;
+   margin-right: 10px;
+}
+
+.cta span{
+   margin-right: 10px;
+   color: red;
+}
+
+
+
+/* ---------------Gallery-Style-End-------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------Gallery-Style-End-------------- */
+
+#About{
+   width: 100%;
+   height: 100vh;
+}
+
+.aboutContent{
+   width: 350px;
+   height: 450px;
+   margin-top: 80px;
+   padding: 20px;
+   align-items: center;
+   justify-content: center;
+}
+
+.aboutContent .icons{
+
+  box-shadow: 2px 4px 8px ;
+   width: 180px;
+   height: 180px;
+   color: red;
+   padding: 50px;
+   margin-left: 55px;
+   margin-bottom: 10px;
+   
+}
+
+.aboutContent .icon{
+
+  box-shadow: 2px 4px 8px ;
+   width: 180px;
+   height: 180px;
+   color: red;
+   padding: 50px;
+   margin-left: 55px;
+   margin-bottom: 15px;
+   font-size: 70px;
+
+   
+}
+
+
+#About .aboutContent h2{
+   text-align: center;
+   color: red;
+   margin: 5px;
+   color: white;
+   padding: 5px;
+}
+#About .aboutContent p{
+   font-size: 16px;
+   width: 300px;
+   text-align: center;
+   margin: 5px;
+   color: white;
+   padding: 5px;
+}
+
+.rowAbout{
+   background: linear-gradient(rgba(0, 0, 0, 0.918), rgba(5, 12, 15, 0.897)), url(./images/car.jpg);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   padding-top: 80px;
+   padding-left: 80px;
+   margin-top: 60px;
+   width: 100%;
+   height: 80vh;
+   flex-direction: row;
+}
+
+
+
+
+/* ---------------Gallery-Style-End-------------- */
+
+
+
+
+/* ---------------FAQ-Style-Start-------------- */
+#Faq{
+   width: 100%;
+   height: 100vh;
+}
+
+.faqHeading h3{
+   color: red;
+   padding-top: 40px;
+   font-size: 25px;
+   margin-top: 5px;
+   align-items: center;
+   text-align: center;
+}
+.faqHeading h1{
+   color: black;
+   padding-top: 10px;
+   font-size: 40px;
+   margin-top: 5px;
+   align-items: center;
+   text-align: center;
+}
+
+.contentFaq{
+   height: 70vh;
+   margin: 40px;
+}
+.accordion-buttons:not(.collapsed) {
+   color: black;
+   background-color: #f7e1e1;
+   box-shadow: inset 0 -1px 0 rgba(245, 241, 241, 0.13);
+}
+.accordion-buttons {
+   position: relative;
+   display: flex;
+   align-items: center;
+   width: 100%;
+   padding: 1rem 1.25rem;
+   font-size: 1.2rem;
+   color: red;
+   text-align: left;
+   background-color: #fff;
+   border: 0;
+   border-radius: 0;
+   overflow-anchor: none;
+   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+/* ---------------FAQ-Style-End-------------- */
+
+
+
+
+/* ---------------Services-Style-Start-------------- */
+
+#Services{
+   width: 100%;
+   height: 100vh;
+}
+
+.servicesHeading h3{
+   color: red;
+   padding-top: 40px;
+   font-size: 25px;
+   margin-top: 5px;
+   align-items: center;
+   text-align: center;
+}
+.servicesHeading h1{
+   color: black;
+   padding-top: 10px;
+   font-size: 40px;
+   margin-top: 5px;
+   align-items: center;
+   text-align: center;
+}
+
+.servicesCards{
+   flex-direction: row;
+   margin: 40px;
+}
+
+.servicesCards .cards{
+   margin-left: 50px;
+
+   padding: 5px;
+   border: 2px solid white;
+   box-shadow: 2px 4px 8px 0;
+   width: 450px;
+   height: 550px;
+
+}
+.epicBtn{
+   background-image: url(./images/booking2.jpg);
+   background-position: center;
+   background-size: cover;
+   width: 440px;
+   height: 320px;
+
+}
+.epicBtn2{
+   background-image: url(./images/booking3.jpg);
+   background-position: center;
+   background-size: cover;
+   width: 440px;
+   height: 320px;
+
+}
+.epicBtn3{
+   background-image: url(./images/booking.jpg);
+   background-position: center;
+   background-size: cover;
+   width: 440px;
+   height: 320px;
+
+}
+
+.KhanBtn{
+   margin: 30px;
+   color: white;
+   background-color: red;
+   border-radius: 8px;
+   font-size: 17px;
+   height: 45px;
+   width: 130px;
+   padding: 10px;
+}
+
+.btnServices{
+   color: white;
+   background-color: red;
+   border-radius: 8px;
+   font-size: 17px;
+   height: 45px;
+   width: 180px;
+   margin-top: 40px;
+   padding: 10px;
+   text-decoration: none;
+}
+/* ---------------Services-Style-End-------------- */
+
+
+
+/* ---------------Extra-Style-Start-------------- */
+
+#Extra{
+   width: 100%;
+   height: 100vh;
+}
+.rowExtra{
+   margin: 100px 50px;
+}
+.extra1{
+   border: 2px solid green;
+   width: 100%;
+   height: 60vh;
+   background-image: url(./images/groupscar.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+
+
+}
+
+.extra2{
+   padding-top: 40px;
+}
+
+
+.groupBtn{
+   margin: 30px;
+   color: white;
+   background-color: red;
+   border-radius: 8px ;
+   font-size: 17px;
+   height: 45px;
+   width: 230px;
+   padding: 10px;
+
+}
+.extra2 span{
+   color: red;
+   font-size: 18px;
+   font-weight: 600;
+}
+
+
+.logofotter{
+   width: 200px;
+}
+
+/* ---------------Extra-Style-End-------------- */
