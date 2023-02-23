@@ -9,23 +9,33 @@
 
 /* --------------------Home-style-start----------- */
 .home{
-   height: 100vh;
-   width: 100%;
+   height: auto;
+   width: auto;
    background: linear-gradient(rgba(0,0,0,0.5), rgba(2, 16, 24, 0.603)), url(./images/car.jpg);
    background-position: center;
    background-size: cover;
    background-attachment: fixed;
    position: relative;
    z-index: 2;
+   padding: 10px
+;
 }
 .logo{
    margin: 30px;
 }
 
+.hero{
+   width: auto;
+   height: auto;
+}
 .navbar-nav{
    margin-left: 450px;
 }
 
+.rowHero{
+   height: auto;
+   flex-wrap: wrap;
+}
 .navbar{
    height: 25vh;
 }
@@ -47,6 +57,8 @@ a.nav-link{
 }
 
 .copy{
+   display: flex;
+   flex-wrap: wrap;
    margin-top: 110px;
 }
 
@@ -79,6 +91,11 @@ a.nav-link{
    color: white;
    font-weight: 800;
    line-height: 32px;
+}
+
+.copy2{
+   width: auto;
+   padding: 10px;
 }
 
 
@@ -114,7 +131,7 @@ a{
 
 .checkBtn .btn{
    color: white;
-   width: 270px;
+   width: auto;
    height: 50px;
    background-color: red;
    border: 2px solid white;
@@ -144,8 +161,8 @@ label{
    margin-bottom: 5px;
    padding-right: 80px;
    margin-top: 10px;
-   width: 620px;
-   height: 300px;
+   width: auto;
+   height: auto;
 }
 
 label{
@@ -172,105 +189,6 @@ label{
    padding: 10px;
 }
 
-@media (max-width:450px){
-   .hero{
-      height: 100vh;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-
-   }
-   .logo{
-      width: 160px;
-      height: 100px;
-   }
-
-   .copy2{
-      margin-top: 2px;
-      width: 350px;
-      height: 450px;
-
-
-
-
-   }
-   .form-row{
-      flex-direction: column;
-   }
-
-   .text-label{
-   margin: 0;
-   font-size: 12px;
-   color: rgb(179, 19, 27);
-   font-weight: 800;
-   line-height: 31px;
-
-
-   }
-
-   .text-hero-bold{
-      margin-left: 55px;
-      font-size: 10px;
-      color: white;
-      font-weight: 800;
-      line-height: 39px;
-      text-align: center;
-   }
-
-   .cta a.btn{
-      padding: 10px;
-      width: 150px;
-      height: 35px;
-      color: white;
-      font-size: 8px;
-   
-   }
-
-   a.btn{
-      padding: 5px;
-      margin: 5px;
-      width: 70px;
-      height: 20px;
-      color: white;
-      font-size: 7px;
-   
-}
-input,.form-select{
-   width: 10px;
-   height: 15px;
-}
-
-label{
-   font-size: 7px;
-   font-weight: 500;
-}
-.copy2{
-   background-color: white;
-   border-radius: 8px;
-   color: black;
-   font-size: 7px;
-   margin-bottom: 0;
-   padding-right: 0;
-   padding-bottom: 0;
-   width: 320px;
-   height: 250px;
-}
-.checkBtn .btn{
-   padding: 2px;
-   margin: 2px;
-   width: 90px;
-   height: 20px;
-   color: white;
-   font-size: 10px;
-
-}
-
-
-
-
-
-}
 
 /* --------------------Home-style-end----------- */
 
@@ -280,8 +198,8 @@ label{
 /* ---------------fleets-Style-start-------------- */
 
 #fleets{
-   width: 100%;
-   height: 100vh;
+   width: auto;
+   height: auto;
    background-color: white;
 }
 
@@ -300,10 +218,15 @@ label{
    font-size: 29px;
 }
 
+
+.row1{
+   flex-wrap: wrap;
+   justify-content: center;
+}
 .row1 .card{
-   margin: 0 35px;
-   width: 520px;
-   height: 480px;
+   margin: 10px;
+   width: auto;
+   height: auto;
    box-shadow: 2px 4px 8px ;
 }
 
@@ -355,8 +278,9 @@ label{
 
 /* ---------------Steps-Style-Start-------------- */
 #Steps{
-   width: 100%;
-   height: 100vh;
+   margin: 30px 0;
+   width: auto;
+   height: auto;
 }
 .stepsHeading{
    background: linear-gradient(rgba(0,0,0,0.5), rgba(2, 16, 24, 0.603)), url(./images/car.jpg);
@@ -387,45 +311,58 @@ label{
    color: red;
 }
 .stepCard{
-   margin-top: -170px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+
+   padding: 10px;
+
    background: #ebe9e9;
-   width: 400px;
-   height: 270px;
+   width: 270px;
+   height: auto;
    text-align: center;
 }
 
 .stepRow{
    margin: 0 60px;
+   flex-wrap: wrap;
 }
 .stepCard1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
 
+   padding: 10px;
 
-   margin-top: -170px;
    background: red;
-   width: 400px;
-   height: 270px;
+   width: 270px;
+   height: auto;
    color: white;
    text-align: center;
 }
 .stepCard1 h2{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
    background-color: white;
    border-radius: 500px;
    color: red;
    width: 85px;
    height: 85px;
-   margin-top: 30px;
-   margin-left: 110px;
-   padding: 25px;
 }
 .stepCard h2{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
    background-color: red;
    border-radius: 500px;
    color: white;
    width: 85px;
    height: 85px;
-   margin-top: 30px;
-   margin-left: 110px;
-   padding: 25px;
 }
 
 .stepCard h1{
@@ -460,8 +397,9 @@ label{
 
 
 #Quote{
-   width: 100%;
-   height: 100vh;
+   margin: 30px 0;
+   width: auto;
+   height: auto;
 
 }
 
@@ -474,8 +412,8 @@ label{
 }
 
 .quoteImg{
-   width: 600px;
-   height: 650px;
+   width: auto;
+   height: auto;
 }
 .content{
    text-align: left;
@@ -513,8 +451,9 @@ label{
 
 #Gallery{
    padding: 20px;
-   width: 100%;
-   height: 100vh;
+   margin: 30px 0;
+   width: auto;
+   height: auto;
 
 }
 
@@ -541,6 +480,10 @@ label{
    background-attachment: fixed;
 }
 
+
+.rowq{
+   flex-wrap: wrap;
+}
 
 .contentg{
    margin-top: 90px;
@@ -616,10 +559,14 @@ label{
 /* ---------------Gallery-Style-End-------------- */
 
 #About{
-   width: 100%;
-   height: 100vh;
+   margin: 30px 0;
+   width: auto;
+   height: auto;
 }
 
+.rowg{
+   flex-wrap: wrap;
+}
 .aboutContent{
 
    width: 270px;
@@ -678,6 +625,7 @@ label{
 }
 
 .rowAbout{
+   flex-wrap: wrap;
    background: linear-gradient(rgba(0, 0, 0, 0.918), rgba(5, 12, 15, 0.897)), url(./images/car.jpg);
    background-size: cover;
    background-position: center;
@@ -685,8 +633,8 @@ label{
    padding-top: 80px;
    padding-left: 80px;
    margin-top: 60px;
-   width: 100%;
-   height: 80vh;
+   width: auto;
+   height: auto;
    flex-direction: row;
 }
 
@@ -700,8 +648,9 @@ label{
 
 /* ---------------FAQ-Style-Start-------------- */
 #Faq{
-   width: 100%;
-   height: 100vh;
+   margin: 30px 0;
+   width: auto;
+   height: auto;
 }
 
 .faqHeading h3{
@@ -722,7 +671,7 @@ label{
 }
 
 .contentFaq{
-   height: 70vh;
+   height: auto;
    margin: 40px;
 }
 .accordion-buttons:not(.collapsed) {
@@ -753,8 +702,10 @@ label{
 /* ---------------Services-Style-Start-------------- */
 
 #Services{
-   width: 100%;
-   height: 100vh;
+   padding: 20px;
+   margin: 30px 0;
+   width: auto;
+   height: auto;
 }
 
 .servicesHeading h3{
@@ -775,24 +726,28 @@ label{
 }
 
 .servicesCards{
-   flex-direction: row;
-   margin: 10px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: 20px;
 }
 
+
 .servicesCards .cards{
-   margin-left: 20px;
-   padding: 10px;
+  
    border: 2px solid white;
    box-shadow: 2px 4px 8px 0;
-   width: 410px;
-   height: 450px;
+   width: 390px;
+   height: auto;
+   margin: 10px;
+
 
 }
 .epicBtn{
    background-image: url(./images/booking2.jpg);
    background-position: center;
    background-size: cover;
-   width: 390px;
+   width: 386px;
    height: 250px;
 
 }
@@ -800,7 +755,7 @@ label{
    background-image: url(./images/booking3.jpg);
    background-position: center;
    background-size: cover;
-   width: 390px;
+   width: 386px;
    height: 250px;
 
 }
@@ -808,7 +763,7 @@ label{
    background-image: url(./images/booking.jpg);
    background-position: center;
    background-size: cover;
-   width: 390px;
+   width: 386px;
    height: 250px;
 
 }
@@ -844,12 +799,20 @@ label{
 /* ---------------Extra-Style-Start-------------- */
 
 #Extra{
-   width: 100%;
-   height: 100vh;
+   padding: 20px;
+   margin: 30px 0;
+   width: auto;
+   height: auto;
 }
+
+
 .rowExtra{
+   flex-wrap: wrap;
    margin: 100px 50px;
 }
+
+
+
 .extra1{
    border: 2px solid red;
    width: 100%;
@@ -905,8 +868,10 @@ label{
 
 
 #vision{
-   width: 100%;
-   height: 100vh;
+   padding: 20px;
+   margin: 30px 0;
+   width: auto;
+   height: auto;
    background-color: white;
 }
 
@@ -950,12 +915,13 @@ label{
 .imgMission{
    margin-top: 50px;
    padding-top: 30px;
-   width: 500px;
+   width: 200px;
    background-size: cover;
    background-position: center;
    height: 44vh;
 }
 .part2Content1{
+   flex-wrap: wrap;
    margin-top: -60px;
 
 }
@@ -964,6 +930,12 @@ label{
    margin-top: 60px;
    height: 30vh;
    flex-direction: column;
+}
+
+
+
+.visionContent{
+   flex-wrap: wrap;
 }
 
 .visionContent2 p{
@@ -999,12 +971,22 @@ label{
 
 #reviews{
    background-color: #e8f1f5;
-   height: 100vh;
-   width: 100%;
+   padding: 20px;
+   margin: 30px 0;
+   width: auto;
+   height: auto;
 }
 .reviewsContent{
    padding: 70px;
 }
+
+
+.part2Review{
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+
 
 .part1Review .heading, h3{
 
@@ -1025,7 +1007,7 @@ label{
    text-align: center;
    justify-content: center;
    padding: 30px;
-   height: 40vh
+   height: auto
 }
 .reviewStar{
    justify-content: center;
@@ -1052,7 +1034,7 @@ label{
    margin: 105px 20px;
    background-color: white;
    padding: 3px;
-   height: 35vh
+   height: auto
 }
 
 
@@ -1120,8 +1102,8 @@ label{
 
 
 #footer{
-   width: 100%;
    padding: 20px;
+   width: auto;
    height: auto;
    background: linear-gradient(rgba(0, 0, 0, 0.918), rgba(5, 12, 15, 0.897)), url(./images/car.jpg);
    background-size: cover;
@@ -1137,6 +1119,10 @@ label{
  
 }
 
+.rowFooter1,
+.rowFooter2{
+   flex-wrap: wrap;
+}
 .footerContent{
 
    height: 15vh;
@@ -1205,3 +1191,4 @@ border: 2px solid white;
 
 
 /* ---------------Footer-Style-End-------------- */
+

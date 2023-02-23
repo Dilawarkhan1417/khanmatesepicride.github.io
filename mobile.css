@@ -1,0 +1,141 @@
+
+
+/* --------------------Media Query-Start----------- */
+
+
+
+@media screen and (max-width: 600px){
+
+
+    .home{
+        height: auto;
+        width: auto;
+
+
+    }
+
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+
+    .copy{
+        width: 350px;
+        justify-content: center;
+        padding: 10px;
+        padding-bottom: 70px;
+        margin-top: -45px
+        
+    }
+
+    .btnq, .btnh, .btng{
+        color: white;
+        width: 110px;
+        height: 50px;
+        background-color: red;
+        border: 2px solid white;
+        outline: none;
+        padding: 10px;
+        font-size: 13px;
+        border-radius: 10px;
+     
+     
+     }
+    .form-row{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .form1{
+        width: 370px;
+        height: auto;
+    }
+
+    .form-group input,
+    .form-group .form-select{
+        width: 250px;
+        height: 50px;
+     }
+     
+     label{
+        color: white;
+        font-size: 10px;
+        font-weight: 500;
+     }
+     
+
+    .btnl{
+   
+        color: white;
+        width: 270px;
+        font-size: 15px;
+        padding: 10px;
+        height: 50px;
+    }
+
+    .text-label{
+        margin: 5px 10px;
+        font-size: 29px;
+        font-weight: 700;
+        line-height: 31px;
+     }
+
+    /* --------Map--------- */
+    iframe{
+ 
+       border: 2px solid white;
+          width: 320px;
+          height: 30vh;
+       }
+  
+ .quoteImg{
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+ }
+ .partg1{
+    height: 400px;
+    padding: 0 10px;
+    width: 350px;
+ }
+ 
+.contentg h3{
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 5px;
+    text-align: center;
+
+}
+.rowc{
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.cta h5{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    font-size: 11px;
+}
+.cta2 h5{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    font-size: 11px;
+}
+
+.extra1{
+    border: 2px solid red;
+    width: 350px;
+    height: 60vh;
+ 
+ 
+ }
+ .imgMission{
+    width: 320px;
+ }
+ }
+ 
+ 
+ /* --------------------Media Query-End----------- */
