@@ -1223,11 +1223,9 @@ border: 2px solid white;
    }
    .part2Content2{
       height: auto;
-      border: 5px solid red;
    }
    .part1{
       height: auto;
-      border: 5px solid red;
    }
    .copy{
        width: 350px;
@@ -1310,7 +1308,6 @@ border: 2px solid white;
 
 
       .visionContent2{
-         border: 5px solid blue;
          width: 310px;
       }
       .part2{
@@ -1355,7 +1352,6 @@ border: 2px solid white;
 }
 
 .extra1{
-   border: 2px solid red;
    width: 350px;
    height: 60vh;
 
