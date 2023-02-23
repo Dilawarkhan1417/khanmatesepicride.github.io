@@ -1200,19 +1200,35 @@ border: 2px solid white;
 
 @media screen and (max-width: 600px){
 
-
+*{
+}
    .home{
        height: auto;
-       width: auto;
+       width: 424px;
 
 
    }
 
    .logo{
+      margin: 10px;
        width: 100px;
        height: 100px;
    }
 
+   .text-hero{
+      width: 320px;
+      font-weight: 700;
+      font-size: 22px;
+      color: white;
+   }
+   .part2Content2{
+      height: auto;
+      border: 5px solid red;
+   }
+   .part1{
+      height: auto;
+      border: 5px solid red;
+   }
    .copy{
        width: 350px;
        justify-content: center;
@@ -1220,6 +1236,9 @@ border: 2px solid white;
        padding-bottom: 70px;
        margin-top: -45px
        
+   }
+   .copy2{
+      width: 270px;
    }
 
    .btnq, .btnh, .btng{
@@ -1234,6 +1253,9 @@ border: 2px solid white;
        border-radius: 10px;
     
     
+    }
+    .form-rows1{
+      width: 380px;
     }
    .form-row{
        justify-content: center;
@@ -1257,18 +1279,22 @@ border: 2px solid white;
        font-weight: 500;
     }
     
+    .col-md-3{
+           
+      width: 310px;
+    }
 
    .btnl{
   
        color: white;
-       width: 270px;
-       font-size: 15px;
+       width: 240px;
+       font-size: 12px;
        padding: 10px;
        height: 50px;
    }
 
    .text-label{
-       margin: 5px 10px;
+       margin: 15px 20px;
        font-size: 29px;
        font-weight: 700;
        line-height: 31px;
@@ -1280,6 +1306,15 @@ border: 2px solid white;
       border: 2px solid white;
          width: 320px;
          height: 30vh;
+      }
+
+
+      .visionContent2{
+         border: 5px solid blue;
+         width: 310px;
+      }
+      .part2{
+         width: 380px;
       }
  
 .quoteImg{
