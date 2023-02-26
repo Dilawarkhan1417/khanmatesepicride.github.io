@@ -50,6 +50,20 @@ a.nav-link{
    color: white;
 
 }
+.nav-link {
+   padding: 0.5rem 1rem;
+   color: red;
+   text-decoration: none;
+}
+a.nav-link:hover {
+   color: red;
+ }
+
+
+nav ul li a:hover{
+   box-shadow: 0 0 5px #f31e1e,
+               0 0 5px #f10e0e;
+}
 
 .hero{
 
